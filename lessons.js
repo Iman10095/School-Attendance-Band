@@ -5,7 +5,7 @@ let lessons=[
     Timein: "6:46am",
     SID: 6573,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1002,
