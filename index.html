@@ -67,7 +67,8 @@
 </style>
   </head>
   <body>
-    <h1 style="color: black; font-size: 40px; font-weight: bold; text-align: center;">6C Student Attendance</h1>
+    <img src="images.jpg" />
+        <h1 style="color: black; font-size: 40px; font-weight: bold; text-align: center; background-color: brown;">6C Student Attendance</h1>
     <div id="app">
                 
             <!--Products page-->
@@ -105,39 +106,7 @@
                 this.showProduct = this.showProduct ? false : true;
             },
 
-          addToCart: function (lesson) {
-            if (lesson.spaces > 0) {
-              console.log(this.lessons.indexOf(lesson));
-              var found = false;
-              var index = 0;
-              var counter = 0;
-              for (a in this.cart) {
-                console.log(this.cart[a].spaces);
-                console.log(lesson.spaces);
-                if (this.cart[a].spaces == lesson.spaces) {
-                  found = true;
-                  index = counter;
-                  console.log("found");
-                }
-                counter++;
-              }
-              if (found) {
-                this.cart[index].quantity += 1;
-              } else {
-                this.cart.push({
-                  id: lesson.id,
-                  subject: lesson.subject,
-                  location: lesson.location,
-                  price: lesson.price,
-                  image: lesson.image,
-                  quantity: 1,
-                });
-              }
-              this.lessons[this.lessons.indexOf(lesson)].spaces -= 1;
-            } else {
-              alert("No more items available");
-            }
-          },
+          
 
           canAddToCart(lesson) {
             if (lesson.spaces > 0) {

@@ -13,7 +13,7 @@ let lessons=[
     Timein: "6:46am",
     SID: 4566,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1003,
@@ -21,7 +21,7 @@ let lessons=[
     Timein: "6:47am",
     SID: 3445,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1004,
@@ -29,7 +29,7 @@ let lessons=[
     Timein: "6:48am",
     SID: 7646,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1005,
@@ -37,7 +37,7 @@ let lessons=[
     Timein: "6:49am",
     SID: 6656,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1006,
@@ -45,7 +45,7 @@ let lessons=[
     Timein: "6:49am",
     SID: 4556,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1007,
@@ -53,7 +53,7 @@ let lessons=[
     Timein: "6:49am",
     SID: 4357,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1008,
@@ -61,7 +61,7 @@ let lessons=[
     Timein: "6:50am",
     SID: 5854,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1009,
@@ -69,7 +69,7 @@ let lessons=[
     Timein: "6:50am",
     SID: 7567,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 {
     id:1010,
@@ -77,7 +77,7 @@ let lessons=[
     Timein: "6:50am",
     SID: 5467,
     spaces: 5,
-    image: "images/download.jpg",
+    image: "download.jpg",
 },
 
 
